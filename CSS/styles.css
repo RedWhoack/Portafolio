@@ -1,0 +1,29 @@
+:root{
+  --azulFuerte: #415a77;
+  --azulClaro: #778da9;
+  --gris: #e0e1dd;
+}
+
+.navbar{
+  background-color: var(--azulClaro);
+}
+
+a{
+  color: var(--gris);
+}
+
+.btn-nav:hover{
+  color: var(--azulFuerte);
+}
+
+.navbar-toggler{
+  border-color: var(--gris);
+}
+
+.icon-bars{
+  color: var(--gris);
+}
+
+.icon-bars:hover{
+  color: var(--azulFuerte);
+}
