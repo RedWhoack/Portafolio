@@ -2,28 +2,31 @@
   --azulFuerte: #415a77;
   --azulClaro: #778da9;
   --gris: #e0e1dd;
+  --verde: #01C38D;
+  --azul: #132D46;
+  --grs: #696E79;
 }
 
 .navbar{
-  background-color: var(--azulClaro);
+  background-color: var(--azul);
 }
 
 a{
-  color: var(--gris);
+  color: var(--verde);
+}
+
+a:hover{
+  color: var(--grs);
 }
 
 .btn-nav:hover{
-  color: var(--azulFuerte);
-}
-
-.navbar-toggler{
-  border-color: var(--gris);
+  color: var(--grs);
 }
 
 .icon-bars{
-  color: var(--gris);
+  color: var(--verde);
 }
 
 .icon-bars:hover{
-  color: var(--azulFuerte);
+  color: var(--grs);
 }
