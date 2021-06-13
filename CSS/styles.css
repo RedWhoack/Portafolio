@@ -5,6 +5,7 @@
   --verde: #01C38D;
   --azul: #132D46;
   --grs: #696E79;
+
 }
 
 .navbar{
@@ -12,21 +13,68 @@
 }
 
 a{
-  color: var(--verde);
+  color: white;
 }
 
 a:hover{
-  color: var(--grs);
-}
-
-.btn-nav:hover{
-  color: var(--grs);
-}
-
-.icon-bars{
   color: var(--verde);
 }
 
-.icon-bars:hover{
-  color: var(--grs);
+.btn-nav:hover{
+  color: var(--verde);
 }
+
+.icon-bars{
+  color: white;
+}
+
+.icon-bars:hover{
+  color: var(--verde);
+}
+
+.btn-contact{
+  background-color: var(--verde);
+  border-color: var(--verde);
+  border-style: none;
+  color: white;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+.btn-contact:hover{
+  background-color: #1a936f;
+  border-color: #1a936f;
+}
+
+.active{
+  aria-pressed="true";
+}
+
+
+/* About */
+
+#about{
+
+}
+
+.header-about{
+  color: var(--verde);
+}
+
+.about-content{
+  margin: 2rem;
+}
+
+/* skills */
+
+#skills{
+  background-color: #457b9d;
+}
+
+.skills-content{
+  margin: 0 15px;
+  padding: 2rem;
+  color: var(--gris);
+}
+
+/* #skills */
