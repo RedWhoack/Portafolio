@@ -46,10 +46,9 @@ a:hover{
   border-color: #1a936f;
 }
 
-.active{
-  aria-pressed="true";
+.btn-contact:active{
+  background-color: #457b9d;
 }
-
 
 /* About */
 
